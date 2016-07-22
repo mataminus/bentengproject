@@ -23,7 +23,8 @@ class FrontendController extends Controller
     }
     public function nilaikemenkeu()
     {
-      return view('front.kemenkeuvalue.index');
+      $kemenkeuvalues = Kemenkeuvalue::all();
+      return view('front.kemenkeuvalue.index',['kemenkeuvalues'=>$kemenkeuvalues]);
     }
     public function sejarah()
     {
