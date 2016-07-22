@@ -11,7 +11,7 @@ use App\Kemenkeuvalue;use App\Notification;use App\Officer;use App\Organization;
 use App\Overview;use App\Overviewbank;use App\Overviewpdms;use App\Overviewumum;use App\Overviewveraki;
 use App\Search;use App\Structure;use App\Taskfunction;use App\Tutorial;
 use App\Programpdms; use App\Programbank; use App\Programveraki; use App\Programsakti;
- use App\Kamuskppn;
+ use App\Kamuskppn;use App\Visionmission;
 
 class FrontendController extends Controller
 {
@@ -33,7 +33,8 @@ class FrontendController extends Controller
     }
     public function visimisi()
     {
-        return view('front.visionmission.index');
+        $visionmissions = Visionmission::all();
+        return view('front.visionmission.index',['visionmissions'=>$visionmissions]);
     }
     public function tugasfungsi()
     {
