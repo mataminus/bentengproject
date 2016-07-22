@@ -38,7 +38,8 @@ class FrontendController extends Controller
     }
     public function tugasfungsi()
     {
-        return view('front.taskfunction.index');
+        $taskfunctions = Taskfunction::all();
+        return view('front.taskfunction.index',['taskfunctions'=>$taskfunctions]);
     }
     public function strukturorganisasi()
     {
