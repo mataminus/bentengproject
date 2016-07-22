@@ -48,7 +48,8 @@ class FrontendController extends Controller
     }
     public function sumberdayamanusia()
     {
-        return view('front.officer.index');
+        $officers = Officer::all();
+        return view('front.officer.index',['officers'=>$officers]);
     }
     public function alumni()
     {
