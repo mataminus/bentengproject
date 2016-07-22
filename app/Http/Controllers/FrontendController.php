@@ -28,7 +28,8 @@ class FrontendController extends Controller
     }
     public function sejarah()
     {
-        return view('front.history.index');
+        $histories = History::all();
+        return view('front.history.index',['histories'=>$histories]);
     }
     public function visimisi()
     {

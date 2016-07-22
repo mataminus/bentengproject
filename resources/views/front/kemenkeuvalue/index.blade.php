@@ -9,7 +9,7 @@
 <br>
 <img src="/image/organization/{{$kemenkeuvalue->photo}}" alt="" class="img-responsive center-block" />
 <br>
-<p>
+<p class= "text-justify">
   {!!$kemenkeuvalue->description!!}
 </p>
 
