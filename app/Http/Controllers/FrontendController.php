@@ -43,7 +43,8 @@ class FrontendController extends Controller
     }
     public function strukturorganisasi()
     {
-        return view('front.structure.index');
+        $structures = Structure::all();
+        return view('front.structure.index',['structures'=>$structures]);
     }
     public function sumberdayamanusia()
     {
