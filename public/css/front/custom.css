@@ -1,0 +1,21 @@
+/*body {
+  margin: 0px;
+  padding: 0px;
+}*/
+
+
+.author {
+  padding: 10px;
+  background:rgb(112, 112, 112) ;
+  color:#fff;
+  margin: 10px auto;
+  width: 10%;
+}
+.page {
+  background: rgb(214, 220, 226);
+  color: rgb(19, 15, 18);
+margin: 20px auto;
+  padding: 10px;
+  width: 800px;
+  border-radius: 10px;
+}

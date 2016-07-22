@@ -1,0 +1,312 @@
+.form-control {
+  display: block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,0.6);
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+}
+textarea.form-control {
+  height: auto;
+}
+a {
+  color: #efbb20;
+}
+a:hover {
+  color: #cd9d0f;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #efbb20;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  color: #efbb20;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #efbb20;
+}
+#offcanvas-toggler >i {
+  color: #34404e;
+}
+#offcanvas-toggler >i:hover {
+  color: #efbb20;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #b58b0d;
+  background-color: #cd9d0f;
+}
+ul.social-icons >li a:hover {
+  color: #efbb20;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #34404e;
+}
+.sp-module ul >li >a:hover {
+  color: #efbb20;
+}
+.sp-module .latestnews >div >a {
+  color: #34404e;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #efbb20;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #efbb20;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  color: #efbb20 !important;
+  border-color: #efbb20 !important;
+}
+.search .btn-toolbar button {
+  background: #efbb20;
+}
+.post-format {
+  background: #efbb20;
+}
+.voting-symbol span.star.active:before {
+  color: #efbb20;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #cd9d0f;
+}
+.entry-link,
+.entry-quote {
+  background: #efbb20;
+}
+blockquote {
+  border-color: #efbb20;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #efbb20;
+}
+.sp-comingsoon body {
+  background-color: #efbb20;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #34404e;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #34404e;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #efbb20;
+  background-color: #efbb20;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #efbb20;
+  background-color: #efbb20;
+}
+.sppb-nav-tabs > li > a >i {
+  color: #efbb20;
+}
+.sppb-btn-primary:hover {
+  color: #efbb20;
+  text-decoration: underline;
+}
+h1.sppb-title-heading:after {
+  background-color: #efbb20;
+}
+.sppb-testimonial-pro .sppb-carousel-control {
+  border: 2px solid #efbb20;
+  color: #fff;
+}
+.addon-title h1.sppb-addon-title:after {
+  background: #efbb20;
+}
+.sp-module-title:after {
+  background: #efbb20;
+}
+.contact-one .sppb-btn-success {
+  background-color: #efbb20;
+  border-color: #efbb20;
+}
+input:focus:invalid:focus,
+textarea:focus:invalid:focus,
+select:focus:invalid:focus {
+  border-color: #efbb20;
+}
+.about-number .sppb-animated-number-title span {
+  color: #efbb20;
+}
+.sppb-person-social li a i:hover {
+  color: #efbb20;
+}
+.sppb-addon-persion:hover .sppb-person-information span.sppb-person-name {
+  color: #efbb20;
+}
+.service-slide .text-block-left .sppb-addon-content p i {
+  color: #efbb20;
+}
+.sppb-carousel a.sppb-carousel-arrow i {
+  border: 1px solid #efbb20;
+}
+.tagspopular ul li a:hover {
+  background: #efbb20;
+  border: 1px solid #efbb20;
+  color: #fff !important;
+}
+ul.service-menu li.current a,
+ul.service-menu li:hover a {
+  color: #efbb20;
+}
+p.readmore a.btn:hover {
+  background: #efbb20;
+  color: #fff;
+}
+.pagination-wrapper a:hover {
+  border: 1px solid #efbb20 !important;
+}
+.sp-contact-info li i {
+  color: #efbb20;
+}
+.tp-caption.excerpt span,
+.excerpt span {
+  color: #efbb20;
+}
+.slider-btn-one:hover {
+  background: #efbb20;
+  color: #fff;
+  border-color: #efbb20;
+}
+.slider-btn-two {
+  background: #efbb20;
+  border-color: #efbb20;
+}
+.slider-btn-two:hover {
+  background: transparent;
+  border-color: #efbb20;
+  color: #efbb20;
+}
+.sp-simpleportfolio .sp-simpleportfolio-item .sp-simpleportfolio-btns a:hover {
+  background: #efbb20;
+  border-color: #efbb20;
+}
+.sppb-btn-primary:focus {
+  color: #efbb20;
+}
+.pager li a:hover {
+  background: #efbb20;
+  border-color: #efbb20;
+}
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner {
+  border-top: 2px solid #efbb20;
+}
+.home-section-quote .sppb-btn-default:hover {
+  color: #efbb20;
+}
+.home-portfolio .sppb-addon-text-block .sppb-addon-content a {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),transparent 18px), #efbb20;
+  border-color: #efbb20;
+}
+.home-portfolio .sppb-addon-text-block .sppb-addon-content a:hover {
+  background: #efbb20;
+  color: #fff;
+  border: none;
+}
+.partner img.sppb-img-responsive:hover {
+  border-color: #efbb20;
+}
+.sppb-addon-accordion .sppb-panel .active .sppb-panel-title:after {
+  color: #efbb20;
+}
+.sppb-addon-accordion .sppb-panel .active .sppb-panel-title i {
+  color: #efbb20;
+}
+.home-about-us .sppb-addon-feature .sppb-icon i:hover,
+.home-about-us .sppb-addon-feature .sppb-icon span:hover {
+  background: #efbb20;
+  color: #fff;
+  border-color: #efbb20;
+}
+.home-project .sppb-addon-text-block h1 span {
+  color: #efbb20;
+}
+.home-project .sppb-addon-content em {
+  color: #efbb20;
+}
+.sppb-addon-button-group .call-now {
+  background: #efbb20;
+  border-color: #efbb20;
+}
+a.ns2-readmore span:hover {
+  color: #efbb20;
+  border-color: #efbb20;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #efbb20 !important;
+}
+.about-social .social-icons i {
+  font-size: 17px;
+}
+.about-social .social-icons i:hover {
+  color: #efbb20 !important;
+}
+.menu-serch button.button:hover {
+  background: #efbb20;
+}
+.tp-caption.excerpt-big,
+.excerpt-big {
+  color: #efbb20 !important;
+}
+.sp-simpleportfolio .sp-simpleportfolio-item .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-overlay {
+  background: #efbb20;
+}
+.sp-simpleportfolio .sp-simpleportfolio-item:hover .sp-simpleportfolio-overlay {
+  opacity: .9;
+}
+.home-testimonial .sppb-testimonial-client .pro-client-name {
+  color: #efbb20 !important;
+}
+.home-testimonial .sppb-item:before {
+  color: #efbb20 !important;
+}
+.contact-feature .sppb-icon span i {
+  color: #efbb20;
+}
